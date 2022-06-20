@@ -1,0 +1,138 @@
+/* basic setting */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 모달창 box-sizing 적용 제외 */
+*:not(.modal):not(.modal_content):not(.signup_content):not(.login_form input) {
+    box-sizing: border-box;
+}
+
+
+/* web font */
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin-top: 5vh;
+    font-family: 'GmarketSansLight';
+    background-color: #f3f3f3;
+}
+
+#main {
+    border-radius: 12px;
+    width: 100%;
+    background-color: white;
+    padding: 30px;
+}
+
+#post_title {
+    font-family: 'GmarketSansMedium';
+    font-size: 20pt;
+    margin-bottom: 5px;
+}
+
+table {
+    width: 60vw;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-bottom:10vh;
+    padding: 20px 0px;
+    border-spacing: 30px;
+}
+
+#date, #place {
+    font-size:12pt;
+    margin-bottom:10px;
+}
+
+#post_img {
+    background-color: #f3f3f3;
+    width: 100%;
+    height:300px;
+    text-align: center;
+    line-height: 300px;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+#post_text {
+    text-align: center;
+    line-height: 20pt;
+    font-size:13pt;
+    margin-bottom:30px;
+}
+
+ul li {
+    display: inline;
+}
+
+#line {
+    background-color: #205A8F;
+    width: 40%;
+    height:2px;
+    margin:0 auto;
+    margin-bottom: 10px;
+}
+
+#user_img {
+    background-color: #f3f3f3;
+    width:70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom:10px;
+}
+
+#post_user {
+    text-align: center;
+}
+
+#edit_button {
+    cursor: pointer;
+    outline: none;
+    width: 100%;
+    height: 35px;
+    border : 1px solid #a8a7a7;
+    color: white;
+    background-color: #205A8F;
+    border-radius: 8px;
+    font-family: 'GmarketSansMedium';
+}
+
+/* 모바일 반응형 */
+@media screen and (max-width:770px) {
+
+    #main {
+        padding:15px;
+    }
+
+    table {
+        margin-top: 50px;
+        width: 90vw;
+    }
+
+    #post_title {
+        font-size: 18pt;
+    }
+
+    #date, #place {
+        font-size:12pt;
+    }
+
+    #post_text {
+        font-size:12pt;
+    }
+}

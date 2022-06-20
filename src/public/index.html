@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5a8cdaf6f7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/index.css">
+      <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/modal.css">
+    <title>다채로움</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar_logo">
+                <img class="logo" src="../../image/logo_small.png"/>
+            </div>
+            <ul class="navbar_menu">
+                <li class="highlight"><a href="board.html">게시판</a></li>
+                <li class="active">|</li>
+                <li class="highlight"><a href="calendar.html">캘린더</a></li>
+                <li class="active">|</li>
+                <li class="highlight"><a href="space_rental_writing.html">공간대여</a></li>
+                <li class="active">|</li>
+                <li class="highlight"><a href="help_teacher_writing.html">교사도움요청</a></li>
+            </ul>
+
+            <ul class="navbar_login">
+                <li><a href="#" class="login">로그인</a></li>
+                <li>|</li>
+                <li><a href="terms.html">회원가입</a></li>
+            </ul>
+
+            <a href="#" class="navbar_togglebtn">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <div id="main">
+            <div id="header-content">
+               <div id="txt-box">
+                   <span>미림인들의 만남 서비스,</span><br>
+                   <span>다채롭게 공유하다.</span>
+               </div>
+               <div id="img-box">
+                    <img src="../../image/hobby1.png">
+               </div>
+            </div>
+            <div id="line"></div>
+            <div id="main-content">
+                <div class="mc-1">
+                    <div class="count">
+                        01
+                    </div>
+                    <div class="content-area">
+                        <img src="../../image/hobby2.png">
+                        <span class="mc-txt-box">
+                            <p class="title">학교 활동을 함께하다</p>
+                            <p class="content">
+                                학교 내에서 공모전, 스터디, 취미 등을 <br>
+                                함께할 사람을 구할 수 있어요
+                            </p>
+                        </span>
+                    </div>
+              
+                </div>
+                <div class="mc-2">
+                    <div class="count">
+                        02
+                    </div>
+                    <div class="content-area">
+                        <span class="mc-txt-box">
+                            <p class="title">학교 내 일정을 공유하다</p>
+                            <p class="content">
+                                1~3학년이 함께 일정을 작성하여 공유할 수 있어요
+                            </p>
+                        </span>
+                        <img src="../../image/hobby3.png">
+                    </div>
+                </div>
+                <div class="mc-3">
+                    <div class="count">
+                        03
+                    </div>
+                    <div class="content-area">
+                        <img src="../../image/hobby4.png">
+                        <span class="mc-txt-box">
+                            <p class="title">공간 대여와 교사 도움 신청</p>
+                            <p class="content">
+                                전산실과 카페 등의 공간을 대여하고,<br>
+                                선생님의 도움을 신청할 수 있어요
+                            </p>
+                        </span>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div id="footer">
+            <img src="../../image/logo_small.png" width="150px">
+			<p>이유빈/최지원/김미나/서민정</p>
+        </div>
+    </footer>
+
+    <!-- 모달(레이어 팝업) -->
+    <div class="modal">
+        <div class="modal_content">
+            <span class="modal_closebtn">&times;</span>
+            <h1 class="modal_title">로그인</h1>
+            <form action="" method="POST" class="login_form" autocomplete="off">
+                <label></label>
+                <input type="text" name="userId" required />
+                <label></label>
+                <input type="password" name="userPw" required />
+                <label></label>
+                <input type="submit" id="submitBtn" value="로그인"/>
+            </form>
+            <div class="forget_content">
+                <a href="#" class="forget">비밀번호를 잊어버리셨나요?</a>
+            </div>
+            <div class="signup_content">
+                <span class="signup"><a href="terms.html">회원가입</a></span>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="../js/header.js"></script>
+
+</html>
