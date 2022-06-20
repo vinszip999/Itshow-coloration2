@@ -53,7 +53,7 @@ table {
     border-spacing: 30px;
 }
 
-#date, #place {
+#date, #place, #category {
     font-size:12pt;
     margin-bottom:10px;
 }
@@ -128,7 +128,7 @@ ul li {
         font-size: 18pt;
     }
 
-    #date, #place {
+    #date, #place, #category {
         font-size:12pt;
     }
 

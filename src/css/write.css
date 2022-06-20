@@ -8,6 +8,18 @@
     box-sizing: border-box;
 }
 
+select {
+    width: 300px;
+    padding: 5px;
+    border: 1px solid #999;
+    font-family: 'Nanumgothic';
+    border-radius: 3px;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
 /* web font */
 @font-face {
     font-family: 'GmarketSansMedium';
@@ -92,6 +104,10 @@ body {
     #wrapper {
         width: 80%;
         margin : 10vh auto 5vh auto;
+    }
+
+    select {
+        width:100%;
     }
     
 }
