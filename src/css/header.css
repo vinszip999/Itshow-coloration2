@@ -33,8 +33,8 @@ a {
     left: 0;
     right: 0;
     width: 100%;
-    padding-left:10px;
-    padding-right:10px;
+    padding-left: 10px;
+    padding-right: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -47,21 +47,31 @@ a {
     height: 50px;
 }
 
-.navbar_menu, 
+.navbar_menu,
 .navbar_login {
     display: flex;
     list-style: none;
-    padding-left:0px;
+    padding-left: 0px;
 }
 
 .navbar_menu {
     position: relative;
-    margin-inline-end: auto; /* 메뉴를 로고 옆으로 이동 */
+    margin-inline-end: auto;
+    /* 메뉴를 로고 옆으로 이동 */
     margin-left: 10px;
 }
 
 .navbar_login {
-    margin-right:20px;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+.login_pc {
+    width: 25px;
+}
+
+.navbar_login_true .login_mo {
+    display: none;
 }
 
 /* PC 화면에서는 토글 버튼이 보이지 않도록 설정 */
@@ -91,7 +101,7 @@ a {
 
 /* 모바일 반응형 */
 @media screen and (max-width:768px) {
-    
+
     .navbar {
         flex-direction: column;
         align-items: flex-start;
@@ -103,7 +113,7 @@ a {
         align-items: center;
         width: 100%;
         /* 메뉴바 위치를 조정하기 위해 바꿨던 포지션을 정적으로 변경 및 여백 초기화 */
-        position: static; 
+        position: static;
         margin-left: 0px;
     }
 
@@ -113,13 +123,14 @@ a {
     }
 
     /* 모바일 화면의 목록 위치 수정 */
-    .navbar_menu li, .navbar_login li:last-child {
+    .navbar_menu li,
+    .navbar_login li:last-child {
         margin-right: 20px;
     }
 
     .navbar_menu li {
         width: 100%;
-        text-align : center;
+        text-align: center;
     }
 
     .navbar_login {
@@ -151,8 +162,18 @@ a {
     }
 
     .navbar_login {
-        margin-top:20px;
-        margin-bottom:20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
+
+
+    .navbar_login_true .login_pc {
+        display: none;
+    }
+
+    .navbar_login_true .login_mo {
+        display: inline-block;
+    }
+
 
 }

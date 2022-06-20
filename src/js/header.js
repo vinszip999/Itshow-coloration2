@@ -18,7 +18,7 @@ function toggleModal(event) {
     modal.classList.toggle("show-modal");
 
     // 모바일 화면에서 로그인 모달을 띄울 때 header 축소
-    if(event.currentTarget === trigger) {
+    if (event.currentTarget === trigger) {
         menu.classList.toggle('active');
         login.classList.toggle('active');
     }
