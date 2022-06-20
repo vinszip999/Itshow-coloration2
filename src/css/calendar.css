@@ -497,7 +497,7 @@ header>h1>span {
   }
   
   .content-right .day-of-week .dayHeader {
-    width: calc(100% / 7.5);
+    width: calc(100% / 7.7);
   }
   
   #weekly>div {
@@ -516,17 +516,23 @@ header>h1>span {
     font-family: 'GmarketSansMedium';
   }
 
+  .close-button {
+    font-size: 18pt;
+    left:88%;
+    bottom:85%;
+  }
+
   .modal-content {
-    width: 400px;
+    width: 330px;
     height: 360px;
   }
 
   .input-box {
-    width: 340px;
+    width: 300px;
   }
 
   .input-btn {
-    width: 365px;
+    width: 325px;
   }
 
 }
