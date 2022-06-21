@@ -156,8 +156,8 @@ nav.navbar {
         display: inline-block;
         text-align: center;
         position: relative;
-        top:100px;
-        float:none;
+        top: 100px;
+        float: none;
     }
 
     #txt-box span:first-child {
@@ -212,7 +212,7 @@ nav.navbar {
     #txt-box span:first-child {
         font-size: 30px;
     }
-    
+
     #txt-box span:last-child {
         font-family: 'GmarketSansMedium';
         color: #575757;

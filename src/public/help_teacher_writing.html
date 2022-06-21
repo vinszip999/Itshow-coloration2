@@ -11,13 +11,19 @@
     <link rel="stylesheet" href="./css/modal.css">
     <link rel="stylesheet" href="./css/help_teacher_writing.css">
     <script src="https://kit.fontawesome.com/5a8cdaf6f7.js" crossorigin="anonymous"></script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="image/coloration-apple.png" />
+    <link rel="shortcut icon" sizes="192x192" href="image/coloration-computer.png" />
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
 </head>
 
 <body>
     <header>
         <nav class="navbar">
             <div class="navbar_logo">
-                <img class="logo" src="./image/logo_small.png"/>
+                <img class="logo" src="./image/logo_small.png" />
             </div>
             <ul class="navbar_menu">
                 <li class="highlight"><a href="board.html">게시판</a></li>
@@ -52,11 +58,11 @@
 
                 <div class="description">
                     <p>
-                        <br>
-                        <h3>※ 유의사항 ※</h3>
-                        당일 신청만 가능합니다. <br>
-                        한계정 당 하루에 한 번만 신청할 수 있습니다. (중복 x) <br>
-                        한 번 신청하면 수정이 불가능합니다. (신중하게 작성해주세요) <br>
+                        <!-- <br> -->
+                    <h3>※ 유의사항 ※</h3>
+                    당일 신청만 가능합니다. <br>
+                    한계정 당 하루에 한 번만 신청할 수 있습니다. (중복 x) <br>
+                    한 번 신청하면 수정이 불가능합니다. (신중하게 작성해주세요) <br>
                     </p>
                 </div>
 
@@ -109,14 +115,14 @@
                 <div class="text">
                     <h3 class="write"><label for="post_text">사유 입력</label></h3>
                     <span class="box">
-                        <textarea id="post_text" minlength="5" maxlength="50"
-                            placeholder="50글자 이내만 작성하세요."></textarea>
+                        <textarea id="post_text" minlength="5" maxlength="50" placeholder="50글자 이내만 작성하세요."></textarea>
                     </span>
                 </div>
 
                 <!-- 신청 버튼 -->
                 <div>
-                    <input type="submit" id="submit_button" value="신청하기" onclick="location.href='help_teacher_student.html'"/>
+                    <input type="submit" id="submit_button" value="신청하기"
+                        onclick="location.href='help_teacher_student.html'" />
                     <!--onclick="location.href='help_teacher_student.html'"-->
                 </div>
 

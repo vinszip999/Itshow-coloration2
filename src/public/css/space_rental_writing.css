@@ -14,6 +14,17 @@ select::-ms-expand {
     text-align: center;
 }
 
+#space img {
+    width: 181px;
+}
+
+/* img{
+    width: 181px;
+} */
+
+.trigger {
+    height: 140px;
+}
 
 /* basic setting */
 * {
@@ -40,10 +51,6 @@ select::-ms-expand {
     font-style: normal;
 }
 
-.trigger{
-    height: 116px;
-}
-
 body {
     font-family: 'GmarketSansLight';
     background-color: white;
@@ -51,7 +58,7 @@ body {
 
 /* wrapper 지정 */
 #wrapper {
-    width: 65%;
+    width: 50%;
     margin: 10vh auto 5vh auto;
     border-spacing: 0 20px;
 }
@@ -136,7 +143,7 @@ body {
     font-size: 20px;
     color: #fff;
     text-align: center;
-    line-height: 125px;
+    line-height: 145px;
 
     opacity: 0;
     /* 처음엔 안보이고 */
@@ -154,10 +161,11 @@ body {
 
 /* 모바일 반응형 */
 @media screen and (max-width:770px) {
+
     /* wrapper 지정 */
     #wrapper {
         width: 60%;
-        margin : 10vh auto 5vh auto;
+        margin: 10vh auto 5vh auto;
     }
 
     select {
@@ -168,37 +176,46 @@ body {
         border-radius: 3px;
     }
 
-    img {
+    #space img {
         width: 110px;
-        /* margin-top: 28vh; */
     }
+
 
     #space figcaption {
         width: 100%;
         height: 100%;
         background-color: rgba(0, 0, 0, 0.7);
-    
+
         position: absolute;
         /* 이미지와 겹치게 처리 */
         top: 0;
         left: 0;
-    
+
         font-size: 15.5px;
         color: #fff;
         text-align: center;
         line-height: 90px;
-    
+
         opacity: 0;
         /* 처음엔 안보이고 */
-    
+
         transition: 0.3s;
-    
+
         font-family: 'GmarketSansLight';
     }
 
-    #check{
+    #check {
         font-size: 12.1px;
     }
-    
-    
+
+    .trigger {
+        height: 85px;
+    }
+
+    .description {
+        font-size: 15px;
+    }
+
+
+
 }

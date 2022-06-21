@@ -11,7 +11,8 @@
     transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
 }
 
-.modal_content, .signup_content {
+.modal_content,
+.signup_content {
     position: absolute;
     padding: 1rem 1rem;
     left: 50%;
@@ -50,12 +51,14 @@
     margin-top: 15px;
 }
 
-.forget:link, .forget:visited {
+.forget:link,
+.forget:visited {
     font-family: 'GmarketSansLight';
     color: #707070;
 }
 
-.forget:hover, .forget:active {
+.forget:hover,
+.forget:active {
     text-decoration: underline;
 }
 
@@ -68,8 +71,8 @@ label {
     position: fixed;
     width: 3rem;
     font-size: 30px;
-    left:90%;
-    bottom:85%;
+    left: 90%;
+    bottom: 85%;
     line-height: 3rem;
     text-align: center;
     cursor: pointer;
@@ -91,13 +94,14 @@ label {
 }
 
 /* padding 까지 계산 */
-input[type='text'], input[type='password'] {
+input[type='text'],
+input[type='password'] {
     width: 478px;
     padding: 10px 10px 10px 10px;
 }
 
 input[type='submit'] {
-    width:500px;
+    width: 500px;
     font-family: 'GmarketSansLight';
     padding: 10px 10px 10px 10px;
     color: white;
@@ -124,29 +128,30 @@ input[type='submit'] {
 
     .signup_content {
         width: 80vw;
-        height:20px;
+        height: 20px;
     }
-    
+
     .modal_closebtn {
-        left:88%;
+        left: 88%;
     }
-    
+
     .forget_content {
         margin-top: 20px;
     }
 
-    input[type='text'], input[type='password'] {
+    input[type='text'],
+    input[type='password'] {
         width: 74vw;
     }
-    
+
     input[type='submit'] {
         border-radius: 6px;
-        height:40px;
-        width:80vw;
+        height: 40px;
+        width: 80vw;
     }
 
     .signup {
         margin-bottom: 5px;
     }
-        
+
 }

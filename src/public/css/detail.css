@@ -46,33 +46,35 @@ body {
 
 table {
     width: 60vw;
-    margin-left: auto; 
+    margin-left: auto;
     margin-right: auto;
-    margin-bottom:10vh;
+    margin-bottom: 10vh;
     padding: 20px 0px;
     border-spacing: 30px;
 }
 
-#date, #place, #category {
-    font-size:12pt;
-    margin-bottom:10px;
+#date,
+#place,
+#category {
+    font-size: 12pt;
+    margin-bottom: 10px;
 }
 
 #post_img {
     background-color: #f3f3f3;
     width: 100%;
-    height:300px;
+    height: 300px;
     text-align: center;
     line-height: 300px;
-    margin-top:30px;
-    margin-bottom:30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 #post_text {
     text-align: center;
     line-height: 20pt;
-    font-size:13pt;
-    margin-bottom:30px;
+    font-size: 13pt;
+    margin-bottom: 30px;
 }
 
 ul li {
@@ -82,18 +84,18 @@ ul li {
 #line {
     background-color: #205A8F;
     width: 40%;
-    height:2px;
-    margin:0 auto;
+    height: 2px;
+    margin: 0 auto;
     margin-bottom: 10px;
 }
 
 #user_img {
     background-color: #f3f3f3;
-    width:70px;
+    width: 70px;
     height: 70px;
     border-radius: 50%;
     margin: 0 auto;
-    margin-bottom:10px;
+    margin-bottom: 10px;
 }
 
 #post_user {
@@ -105,7 +107,7 @@ ul li {
     outline: none;
     width: 100%;
     height: 35px;
-    border : 1px solid #a8a7a7;
+    border: 1px solid #a8a7a7;
     color: white;
     background-color: #205A8F;
     border-radius: 8px;
@@ -116,7 +118,7 @@ ul li {
 @media screen and (max-width:770px) {
 
     #main {
-        padding:15px;
+        padding: 15px;
     }
 
     table {
@@ -128,11 +130,13 @@ ul li {
         font-size: 18pt;
     }
 
-    #date, #place, #category {
-        font-size:12pt;
+    #date,
+    #place,
+    #category {
+        font-size: 12pt;
     }
 
     #post_text {
-        font-size:12pt;
+        font-size: 12pt;
     }
 }

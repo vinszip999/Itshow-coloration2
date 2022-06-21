@@ -30,5 +30,5 @@ closeBtn.addEventListener("click", toggleModal);
 // 로고 클릭 시 홈 화면으로 돌아가기
 const logo = document.querySelector('.navbar_logo');
 logo.addEventListener('click', function () {
-    location.href = '../public/index.html';
+    location.href = './index.html';
 })

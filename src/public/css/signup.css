@@ -62,30 +62,30 @@ body {
 }
 
 /* #content { */
-    /* display: table-cell;
+/* display: table-cell;
     vertical-align: middle; */
 
-    /* display: flex;
+/* display: flex;
     align-items: center; */
 
-    /* display: flex;
+/* display: flex;
     align-items: center;
     /* 수직 정렬 */
-    /* flex-direction: row; */
-    /* default: row */
-    /* justify-content: center;
+/* flex-direction: row; */
+/* default: row */
+/* justify-content: center;
     flex direction에 대해서 정렬방식 선택 */
 
-    /* position: relative;
+/* position: relative;
     /* display: flex; */
-    /* justify-content: center; */
+/* justify-content: center; */
 /* } */
 
 /* .school { */
-    /* display: inline-block; */
-    /* margin: auto; */
-    /* margin-left: auto; */
-    /* margin-left: 300px; */
+/* display: inline-block; */
+/* margin: auto; */
+/* margin-left: auto; */
+/* margin-left: 300px; */
 /* } */
 
 /* 입력폼 */
@@ -197,12 +197,12 @@ select {
     font-family: 'GmarketSansMedium';
 } */
 
-#btnJoin{
+#btnJoin {
     cursor: pointer;
     outline: none;
     width: 100%;
     height: 40px;
-    border : none;
+    border: none;
     color: white;
     background-color: #205A8F;
     border-radius: 8px;
@@ -221,7 +221,7 @@ select {
 
 /* 모바일 반응형 */
 @media screen and (max-width:768px) {
-    
+
     #wrapper {
         width: auto;
     }
@@ -245,7 +245,7 @@ select {
         max-height: 100%;
     } */
 
-    #schoolYear_logo{
+    #schoolYear_logo {
         width: 92px;
         height: auto;
     }

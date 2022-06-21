@@ -31,7 +31,31 @@ table {
   border-collapse: collapse;
 }
 
-h1, h2, h3, h4, h5, h6, div, p, dl, dt, dd, ul, ol, li, form, fieldset, blockquote, address, table, thead, tbody, tfoot, tr, td, caption {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+p,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+form,
+fieldset,
+blockquote,
+address,
+table,
+thead,
+tbody,
+tfoot,
+tr,
+td,
+caption {
   margin: 0;
   padding: 0;
 }
@@ -164,11 +188,12 @@ header>h1>span {
   outline-style: none;
 }
 
-.schedule-btn, .schedule-btn-m {
+.schedule-btn,
+.schedule-btn-m {
   width: 150px;
   background-color: #205A8F;
   border-radius: 6pt;
-  padding: 5px; 
+  padding: 5px;
   border: 1px solid #a8a7a7;
   font-family: 'GmarketSansLight';
   color: white;
@@ -369,13 +394,14 @@ header>h1>span {
   padding: 20px;
   width: 100%;
   border-radius: 12pt;
-  height:300px;
+  height: 300px;
   background-color: #f3f3f3;
   text-align: center;
   font-family: 'GmarketSansMedium';
 }
 
-.calendarMD, .calendarMD-m {
+.calendarMD,
+.calendarMD-m {
   color: #205A8F;
   font-size: 16pt;
 }
@@ -415,8 +441,8 @@ header>h1>span {
 .close-button {
   position: fixed;
   width: 3rem;
-  left:90%;
-  bottom:85%;
+  left: 90%;
+  bottom: 85%;
   line-height: 3rem;
   text-align: center;
   cursor: pointer;
@@ -424,7 +450,7 @@ header>h1>span {
 }
 
 .input-box {
-  height:240px;
+  height: 240px;
   width: 430px;
   background-color: #efefef;
   border-radius: 6px;
@@ -444,8 +470,8 @@ header>h1>span {
 .input-btn {
   width: 460px;
   border-radius: 6pt;
-  padding: 5px; 
-  margin:0px;
+  padding: 5px;
+  margin: 0px;
   border: 1px solid #a8a7a7;
   font-family: 'GmarketSansLight';
   color: white;
@@ -482,12 +508,12 @@ header>h1>span {
     margin: auto;
     display: block;
   }
-  
+
   header>h1>img {
     width: 25px;
-    margin-left:-6vw;
+    margin-left: -6vw;
   }
-  
+
   header>h1>span {
     font-size: 18px;
   }
@@ -495,11 +521,11 @@ header>h1>span {
   .content-right {
     width: 100%;
   }
-  
+
   .content-right .day-of-week .dayHeader {
     width: calc(100% / 7.7);
   }
-  
+
   #weekly>div {
     height: 60px;
   }
@@ -511,15 +537,15 @@ header>h1>span {
     margin-top: 20px;
     width: 85%;
     border-radius: 12pt;
-    height:300px;
+    height: 300px;
     background-color: #f3f3f3;
     font-family: 'GmarketSansMedium';
   }
 
   .close-button {
     font-size: 18pt;
-    left:88%;
-    bottom:85%;
+    left: 88%;
+    bottom: 85%;
   }
 
   .modal-content {
