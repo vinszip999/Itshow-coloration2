@@ -40,6 +40,10 @@ select::-ms-expand {
     font-style: normal;
 }
 
+.trigger{
+    height: 116px;
+}
+
 body {
     font-family: 'GmarketSansLight';
     background-color: white;
