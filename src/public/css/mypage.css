@@ -24,24 +24,42 @@
 }
 
 /* css 코드 시작 */
-footer{
+/* footer{
     text-align: center;
     margin-top: 70px;
-}
+} */
 
 /* #main-content {
     margin: 10vh 10vw 15vh 10vw;
 } */
 
 body {
+    font-family: 'GmarketSansLight';
     margin-top: 8vh;
     margin-left: 10vw;
     margin-right: 10vw;
     margin-bottom:5vh;
 }
 
-h3{
+li{
     color: #205A8F;
+}
+
+#text1{
+    margin: 0;
+    /* margin-bottom: 100px; */
+}
+
+#text2{
+    margin-left: -100px;
+}
+
+h3{
+    color: #000000;
+}
+
+h4{
+  color: #000000;
 }
 
 main {
@@ -59,8 +77,8 @@ main {
 #edit{
     color: #205A8F;
     position: relative;
-    top: 20px;
-    left:120px;
+    /* top: 20px; */
+    /* left:120px; */
 }
 
 #circle {
@@ -79,25 +97,16 @@ main {
     position: relative;
     /* top: 20px; */
     margin-bottom: 50px;
-    left:120px;
+    /* left:120px; */
+    /* margin-left: -220px; */
 }
 
 #login {
     position: relative;
     width: 300px;
     height: 30px;
-    left: 120px;
-    bottom: 45px;
-    border-radius: 10px;
-    background-color: #c0c0c0;
-}
-
-#myself {
-    position: relative;
-    width: 300px;
-    height: 30px;
-    left: 120px;
-    bottom: 45px;
+    /* left: 120px;
+    bottom: 45px; */
     border-radius: 10px;
     background-color: #c0c0c0;
 }
@@ -106,8 +115,8 @@ main {
     position: relative;
     width: 150px;
     height: 30px;
-    left: 120px;
-    bottom: 45px;
+    /* left: 120px;
+    bottom: 45px; */
     border-radius: 10px;
     background-color: #c0c0c0;
 }
@@ -116,8 +125,8 @@ main {
     position: relative;
     width: 150px;
     height: 30px;
-    left: 120px;
-    bottom: 45px;
+    /* left: 120px;
+    bottom: 45px; */
     border-radius: 10px;
     background-color: #c0c0c0;
 }
@@ -139,32 +148,14 @@ main {
     /* padding: 20px; */
     /* margin: 50px; */
     border-radius: 7px;
-    background-color:  rgb(160, 157, 157);
+    background-color: rgb(112, 112, 112);
     width: 300px;
     height: auto;
 }
 
-/* .box {
-    position: relative;
-    left: 600px;
-    bottom: 165px;
-    padding: 20px;
-} */
-
-/* .pull {
-    position: relative;
-    margin: 50px;
-    padding: 20px;
-    width: 300px;
-    height: 60px;
+.pull{
     color: #FFF;
-    border-radius: 10px;
-    background-color:  rgb(160, 157, 157);
-} */
-
-/* .pull{
-    
-} */
+}
 
 .pull:after {
     content: "";
@@ -174,18 +165,18 @@ main {
     /* margin-bottom: 50px; */
     /* right: -30px; */
     /* left: -30px; */
-    margin-left: -291px;
+    margin-left: -283px;
     margin-top: -10px;
     /* border-left: 30px solid #000; */
-    border-right: 30px solid rgb(160, 157, 157);
+    border-right: 30px solid rgb(112, 112, 112);
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
 }
 
 #never {
-    position: relative;
+    /* position: relative; */
     /* text-align: center; */
-    bottom: 100px;
+    /* bottom: 100px; */
     color: rgb(87, 85, 85);
 }
 
@@ -193,13 +184,14 @@ main {
     position: relative;
     text-align: center;
     /* justify-content : center; */
-    vertical-align: middle;
+    /* vertical-align: middle; */
     width: 100px;
     height: 30px;
     /* margin-left: 700px; */
-    left: 730px;
-    bottom: 125px;
+    /* left: 730px; */
+    /* bottom: 125px; */
     border-radius: 10px;
+    border: none;
     background-color: #205A8F;
     color: #FFF;
     text-decoration: underline;
@@ -214,24 +206,25 @@ main {
         margin : 10vh auto 5vh auto;
     } */
 
-    body {
+    /* body {
         margin-top: 5vh;
         margin-left: 5vw;
         margin-right: 5vw;
         margin-bottom: 5vh;
-    }
+    } */
 
     .box{
         display: none;
     }
-
-    #content {
-        position: absolute;
-        left: 50%;
-        transform: translate(-50%);
-        width: 300px;
+    
+    #circle{
+        width: 180px;
+        height: 180px;
     }
 
+    #account{
+        width: auto;
+    }
     
     
 }

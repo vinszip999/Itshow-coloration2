@@ -62,7 +62,7 @@ a {
 }
 
 .navbar_login {
-    margin-top: 5px;
+    /* margin-top: 5px; */
     margin-right: 20px;
 }
 
@@ -146,7 +146,7 @@ a {
     .navbar_togglebtn {
         cursor: pointer;
         display: block;
-        margin-right: 20px;
+        /* margin-right: 20px; */
     }
 
     /* toggle 클릭 시 메뉴와 로그인이 보이도록 */
@@ -165,7 +165,6 @@ a {
         margin-top: 20px;
         margin-bottom: 20px;
     }
-
 
     .navbar_login_true .login_pc {
         display: none;

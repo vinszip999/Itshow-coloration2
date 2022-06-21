@@ -63,7 +63,7 @@ select {
     /* 여백으로 높이 설정 */
     font-family: inherit;
     /* 폰트 상속 */
-    background: url('../../image/angle-small-down.png') no-repeat 95% 50%;
+    background: url('../image/angle-small-down.png') no-repeat 95% 50%;
     /* 화살표 모양의 이미지 */
     border: 1px solid #999;
     border-radius: 0px;
@@ -82,12 +82,6 @@ select {
     font-family: 'GmarketSansLight';
 }
 
-#search-img {
-    position: absolute;
-    top: 12vh;
-    width: 20px;
-}
-
 #line {
     height: 2px;
     width: 350px;
@@ -95,6 +89,7 @@ select {
 }
 
 #write_btn {
+    margin-left: 950px;
     cursor: pointer;
     outline: none;
     width: 100px;
@@ -115,44 +110,77 @@ select {
     justify-content: center;
 }
 
-.item {
+/* .item {
     cursor: pointer;
     width: 300px;
     height: 250px;
-    background-color: #a8a7a7;
+    background-color: #ffffff;
     border-radius: 12px;
-    border: 1px solid #a8a7a7;
-}
+    border: 1px solid #ffffff;
+} */
 
-.post_img {
-    width: 100%;
-    height: 60%;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    background-color: #a8a7a7;
-}
-
-.post_box {
+.item {
     padding: 10px;
-    height:40%;
-    border-bottom-left-radius: 12px;
-    border-bottom-right-radius: 12px;
-    background-color: #fff;
+    width: 300px;
+    height: 300px;
+    background-color: #e9e9e9;
+    border-radius: 12px;
+    border: 1px solid #dedede;
 }
 
-.post_title {
-    font-size: 16pt;
-    margin-bottom: 3px;
-}
+/* .post_box {
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+    background-color: #e9e9e9;
+    border-radius: 12px;
+    border: 1px solid #dedede;
+} */
 
-.post_date {
+.post_teacher {
     font-size: 12pt;
     margin-bottom: 3px;
 }
 
-.post_user {
+.post_field {
     font-size: 12pt;
+    margin-bottom: 3px;
 }
+
+.post_time {
+    font-size: 12pt;
+    margin-bottom: 3px;
+}
+
+.post_reason {
+    font-size: 12pt;
+    margin-bottom: 3px;
+}
+
+/* footer */
+/* #footer {
+    background-color: #575757;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    clear: both;
+
+}
+
+#footer img {
+    width: 100px;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+#footer p {
+    color: white;
+    font-family: 'GmarketSansLight';
+    float: right;
+    font-size: 15px;
+    margin-top: 40px;
+    margin-right: 50px;
+} */
 
 /* 모바일 반응형 */
 @media screen and (max-width:770px) {
@@ -169,7 +197,7 @@ select {
     }
 
     /* 버튼과 검색창의 flex 제거 */
-    .search {
+    /* .search {
         display: block;
     }
 
@@ -188,12 +216,12 @@ select {
     .categorys {
         margin-top: 10px;
         margin-left: 10px;
-    }
+    } */
 
     /* IE 10, 11의 네이티브 화살표 숨기기 */
-    select::-ms-expand {
+    /* select::-ms-expand {
         display: none;
-    }
+    } */
 
     select {
         width: 80px;
@@ -213,7 +241,7 @@ select {
         appearance: none;
     }
 
-    #search-box {
+    /* #search-box {
         background-color: #fff;
         border: none;
         outline: none;
@@ -223,13 +251,14 @@ select {
 
     #search-img {
         width: 18px;
-    }
+    } */
 
-    #line {
+    /* #line {
         width: 250px;
-    }
+    } */
 
     #write_btn {
+        margin-left: 200px;
         margin-top: 1.5vh;
         width: 95px;
         font-size: 12pt;

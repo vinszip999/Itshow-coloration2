@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+nav.navbar {
+    box-sizing: border-box;
+}
+
 /* web font */
 @font-face {
     font-family: 'GmarketSansMedium';
@@ -28,7 +32,7 @@
 #header-content {
     height: 100vh;
     clear: both;
-    background-image: url('../../image/main-back.png');
+    background-image: url('../image/main-back.png');
     background-size: 100% 100%;
     padding-left: 10vw;
     padding-right: 10vw;

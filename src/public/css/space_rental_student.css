@@ -63,7 +63,7 @@ select {
     /* 여백으로 높이 설정 */
     font-family: inherit;
     /* 폰트 상속 */
-    background: url('../../image/angle-small-down.png') no-repeat 95% 50%;
+    background: url('../image/angle-small-down.png') no-repeat 95% 50%;
     /* 화살표 모양의 이미지 */
     border: 1px solid #999;
     border-radius: 0px;
