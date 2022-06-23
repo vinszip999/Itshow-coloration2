@@ -1,3 +1,12 @@
+.check{
+    position: static;
+    color: rgb(255, 255, 255); 
+    text-align: center; 
+    font-size: larger; 
+    background-color:rgb(142, 142, 142);
+    margin-top: 81px;
+}
+
 /* basic setting */
 * {
     margin: 0;
@@ -121,7 +130,7 @@ select {
 
 .item {
     padding: 10px;
-    width: 300px;
+    width: 335px;
     height: 300px;
     background-color: #e9e9e9;
     border-radius: 12px;
@@ -153,11 +162,6 @@ select {
     margin-bottom: 3px;
 }
 
-.check {
-    font-size: 12pt;
-    margin-bottom: 3px;
-}
-
 /* footer */
 /* #footer {
     background-color: #575757;
@@ -185,6 +189,14 @@ select {
 
 /* 모바일 반응형 */
 @media screen and (max-width:770px) {
+    #board_list {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(335px, auto));
+        margin-top: 50px;
+        column-gap: 30px;
+        row-gap: 30px;
+        justify-content: center;
+    }
 
     main {
         margin: 10vh 10vw 15vh 10vw;
