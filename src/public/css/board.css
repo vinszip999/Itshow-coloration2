@@ -178,7 +178,7 @@ select {
     }
 
     .searchs input[type='text'] {
-        width: 230px;
+        width: 190px;
     }
 
     .search li:first-child {
@@ -226,7 +226,7 @@ select {
     }
 
     #line {
-        width: 250px;
+        width: 210px;
     }
 
     #write_btn {

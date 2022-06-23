@@ -60,7 +60,7 @@
                 <div class="title">
                     <h3 class="write"><label for="post_title">게시글 제목</label></h3>
                     <span class="box">
-                        <input type="text" id="post_title" />
+                        <input type="text" id="post_title" minlength="5" maxlength="15" placeholder="15글자 이내만 작성하세요."/>
                     </span>
                 </div>
 
@@ -74,7 +74,7 @@
                 <div class="sns">
                     <h3 class="write"><label for="post_sns">SNS 주소</label></h3>
                     <span class="box">
-                        <input type="url" id="post_sns" />
+                        <input type="url" id="post_sns" minlength="5" maxlength="15" placeholder="ex) https://www.instagram.com/fre._.e/"/>
                     </span>
                 </div>
 
@@ -101,7 +101,7 @@
                 <div class="text">
                     <h3 class="write"><label for="post_text">게시글 내용</label></h3>
                     <span class="box">
-                        <textarea id="post_text"></textarea>
+                        <textarea id="post_text" minlength="5" maxlength="50" placeholder="50글자 이내만 작성하세요."></textarea>
                     </span>
                 </div>
                 <input type="submit" id="submit_button" value="수정하기" />
