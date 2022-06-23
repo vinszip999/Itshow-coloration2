@@ -74,6 +74,11 @@ a {
     display: none;
 }
 
+.mypage {
+    position: relative;
+    top:3px;
+}
+
 /* PC 화면에서는 토글 버튼이 보이지 않도록 설정 */
 .navbar_togglebtn {
     display: none;
